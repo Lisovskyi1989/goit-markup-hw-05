@@ -286,6 +286,9 @@ img {
 .about-img-item:not(:last-child) {
   margin-right: 30px;
 }
+.about-img-item{
+  position: relative;
+}
 
 .about-icon{
   display: flex;
@@ -297,6 +300,30 @@ img {
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
+}
+
+.thumb{
+    position: relative;
+}
+.thumb>.label{
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+  color: var(--primary-text-color-theme-dark);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color:rgba(47, 48, 58, 0.8); 
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 /* ========= END ABOUT ========= */
 
