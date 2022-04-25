@@ -128,22 +128,26 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   position: relative;
+  
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  
 }
 
 .navigation {
   display: flex;
   align-items: center;
+  
 }
 .nav-list {
   display: flex;
   align-items: center;
+  
 }
 
 .nav-list-item:not(:last-child) {
@@ -166,6 +170,7 @@ img {
 .nav-list-link:hover::after{
   content: "";
   display: block;
+  align-items: center;
   width: 48px;
   height: 4px;
   background-color: var(--accent-color);
