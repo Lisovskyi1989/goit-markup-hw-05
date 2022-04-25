@@ -167,7 +167,7 @@ img {
 .nav-list-link:focus {
   color: var(--accent-color);
 }
-.nav-list .link.current::after{
+.nav-list-link.link.current::after{
   content: "";
   display: block;
   align-items: center;
