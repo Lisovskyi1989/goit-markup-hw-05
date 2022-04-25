@@ -167,16 +167,21 @@ img {
 .nav-list-link:focus {
   color: var(--accent-color);
 }
-.nav-list-link:hover::after{
+.nav-list .link.current::after{
   content: "";
   display: block;
   align-items: center;
-  width: 48px;
+  width: 78px;
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
 position: absolute;
-bottom: 0;
+bottom: -1px;
+}
+
+.nav-list .link.current{
+  color: var(--accent-color);
+
 }
 
 .header-contacts-list {
